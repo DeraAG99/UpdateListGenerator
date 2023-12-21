@@ -1,0 +1,14 @@
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\bin\Release\net7.0\UpdateListGenerator.exe
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\bin\Release\net7.0\UpdateListGenerator.deps.json
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\bin\Release\net7.0\UpdateListGenerator.runtimeconfig.json
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\bin\Release\net7.0\UpdateListGenerator.dll
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\bin\Release\net7.0\UpdateListGenerator.pdb
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.AssemblyInfoInputs.cache
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.AssemblyInfo.cs
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.dll
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\refint\UpdateListGenerator.dll
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.pdb
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\UpdateListGenerator.genruntimeconfig.cache
+C:\Users\Niel-PC\Desktop\Emu patch 1332\src\UpdateListGenerator\obj\Release\net7.0\ref\UpdateListGenerator.dll
