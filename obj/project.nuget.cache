@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2i/gJFWnz0WygWJCfVG8w0dTqE52ykBu81S7HDB/yVRgP7wlqyqsqTI6SJVQsbZDRA1XAtmgfP9u1Ih8oX1mfw==",
+  "dgSpecHash": "hHmV65kRvP/SG1tYCPSa1DcvZkrhae7nQaeHZsw5HEIb+7+eBZmEj8rAENQyDRDa8GgRXZ++V0FSx9qwX4FAzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Niel-PC\\Desktop\\Emu patch 1332\\src\\UpdateListGenerator\\UpdateListGenerator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Project\\UpdateListGenerator\\UpdateListGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niel\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Niel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Niel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Niel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+  ],
   "logs": []
 }

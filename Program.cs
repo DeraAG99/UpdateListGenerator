@@ -9,20 +9,21 @@ namespace UpdateListGenerator
     {
         static void Main(string[] args)
         {
+            string targetDirectory = "./s4league/";
+
             // Create update list
             List<string> updateList = new List<string>();
 
-            // Recursively traverse the current directory and its subfolders
-            ProcessDirectory(".", updateList);
+            // Recursively traverse the target directory and its subfolders
+            ProcessDirectory(targetDirectory, updateList);
 
             // Write the update list to a file
-            using (StreamWriter writer = new StreamWriter("updatelistXyrotec.txt"))
+            using (StreamWriter writer = new StreamWriter("updatelist.txt"))
             {
-                // Replace all dots with empty strings
-                updateList = updateList.Select(item => item.Substring(0+1)).ToList();
-
                 writer.WriteLine(string.Join("\n", updateList));
             }
+
+            Console.WriteLine("Update list generated successfully.");
         }
 
         static void ProcessDirectory(string directoryPath, List<string> updateList)
@@ -31,12 +32,15 @@ namespace UpdateListGenerator
             foreach (string file in Directory.GetFiles(directoryPath))
             {
                 // Calculate MD5 hash of the file
-                MD5 md5 = new MD5CryptoServiceProvider();
-                byte[] hash = md5.ComputeHash(File.ReadAllBytes(file));
-                string md5Hash = BitConverter.ToString(hash).Replace("-", "");
+                using (MD5 md5 = MD5.Create())
+                {
+                    byte[] hash = md5.ComputeHash(File.ReadAllBytes(file));
+                    string md5Hash = BitConverter.ToString(hash).Replace("-", "");
 
-                // Add entry to the update list with full file path
-                updateList.Add($"{file}|{md5Hash}");
+                    // Add entry to the update list with full file path relative to targetDirectory
+                    string relativePath = file.Substring(file.IndexOf("s4league") + "s4league".Length + 1);
+                    updateList.Add($"{relativePath}|{md5Hash}");
+                }
             }
 
             // Recursively process subdirectories
